@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: initial;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(7, 0, 0);
+  border: 4px solid rgb(73, 73, 71);
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/* maybe
+.navbar:hover {
+  background: linear-gradient(90deg, rgb(241, 243, 245) 1%, rgb(8, 8, 8) 100%);
+  color: rgb(2, 0, 0);
+  transition: all 0.8s ease;
+} */
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+}
+
+.navbar ul li a {
+  color: white;
+  padding: 8px 22.5px 0 22.5px;
+  text-decoration: none;
+  box-shadow: white;
+  text-shadow: black;
+  font-size: 1.5rem;
+}
+
+.navbar ul li a:hover {
+  background: linear-gradient(90deg, rgb(0, 1, 3) 1%, rgb(246, 247, 245) 100%);
+  color: rgb(250, 244, 244);
+  transition: 0.8s ease;
+  box-shadow: 0px 0px 5px rgb(241, 239, 239), 0px 0px 10px rgb(245, 245, 242),
+    0px 0px 15px rgb(241, 241, 238);
+}
+
+body {
+  width: 100%;
+  background: linear-gradient(90deg, rgb(0, 1, 3) 1%, rgb(246, 247, 244) 100%);
+  font-family: "Quicksand", sans-serif;
+}
+
+/* meg nem tudom, hogy mi fog az home-ba kerulni */
+#home {
+  height: 841px;
+  width: 100%;
+  padding-top: 120px;
+}
+
+.maintext {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  padding-top: 210px;
+}
+
+button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  border: none;
+  border-radius: 1px;
+  margin-left: 390px;
+  padding: 20px;
+  box-shadow: 0px 0px 15px black;
+}
+
+#hireme:hover {
+  background: rgb(233, 6, 6);
+  color: rgb(238, 232, 232);
+  box-shadow: 0px 0px 10px rgb(240, 3, 3), 0px 0px 15px rgb(226, 3, 3),
+    0px 0px 20px rgb(216, 3, 3);
+  transition: 0.4s ease;
+}
+
+#mainjpeg {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  margin: 75px;
+  height: 500px;
+  width: 400px;
+  box-shadow: 0px 0px 15px black;
+  border-radius: 1px;
+}
+
+/* elso kep és adatok rolam */
+
+#about {
+  padding: 10px;
+  margin-bottom: 100px;
+  height: 900px;
+  width: 100%;
+}
+
+.aboutme {
+  padding-top: 80px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+#mejpg {
+  width: 550px;
+  height: 400px;
+  float: right;
+  margin-top: 20px;
+  box-shadow: 0px 0px 15px black;
+  border-radius: 1px;
+}
+
+#me {
+  height: 350px;
+  width: 450px;
+  padding: 30px;
+  font-size: 80px;
+  margin-top: 45px;
+}
+.intro {
+  width: 800px;
+  padding: 50px;
+  color: white;
+}
+
+/* portfolio */
+
+#portfoliodiv {
+  padding-top: 60px;
+  width: 100%;
+  height: 1100px;
+}
+
+#portfolioh1 {
+  width: 100%;
+  height: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.pictures {
+  margin-left: 215px;
+  margin-top: -50px;
+  margin-bottom: 60px;
+  width: 385px;
+  height: 290px;
+  display: inline;
+  justify-content: space-between;
+  box-shadow: 0px 0px 15px black;
+  border-radius: 1px;
+}
+
+/* Services */
+#services {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  color: black;
+  height: 800px;
+}
+
+#titleservices {
+  width: 100%;
+  height: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  padding: 20px;
+  color: black;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 500px;
+  border: 1px solid black;
+  margin: 10px;
+  margin-top: 90px;
+  margin-left: 40px;
+  align-items: center;
+  text-align: justify;
+  padding: 10px;
+  border-radius: 1px;
+  background: linear-gradient(to top, rgb(255, 45, 45) 50%, white 50%);
+  background-size: 100% 200%;
+  transition: all 0.8s;
+  box-shadow: 0px 0px 15px black;
+}
+
+.box:hover {
+  background-position: left bottom;
+  color: white;
+  border: none;
+  box-shadow: 0 0 20px rgb(255, 45, 45);
+}
+
+/* contact */
+
+#contact {
+  height: 800px;
+}
+
+.contacttitle {
+  width: 100%;
+  height: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 85px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  background: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  font-size: large;
+  font-weight: bold;
+  box-shadow: 0px 0px 20px black;
+}
+
+input[type="submit"]:hover {
+  background: rgb(196, 2, 2);
+  color: rgb(245, 241, 241);
+  box-shadow: 0px 0px 10px rgb(202, 1, 1), 0px 0px 15px rgb(190, 2, 2),
+    0px 0px 20px rgb(184, 2, 2);
+  transition: 0.4s ease;
+}
+
+.container {
+  border-radius: 1px;
+  background: linear-gradient(320deg, rgb(0, 1, 3) 1%, rgb(246, 247, 245) 100%);
+  padding: 10px;
+  width: 450px;
+  margin: 0px auto;
+  margin-top: 180px;
+  padding-top: 20px;
+  box-shadow: 0px 0px 15px black;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25,
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
