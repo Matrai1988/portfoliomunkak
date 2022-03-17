@@ -1,2 +1,173 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+   
+    <section id="home">
+      <img src="mainjpeg.jpeg" id="mainjpeg" alt="" />
+      
+      <p class="maintext">
+        Hi, <br />
+        I am <br> George Matrai
+      </p>
+      <button id="hireme">Hire Me</button>
+    </section>
+    <section id="about">
+      <p class="aboutme">About Me</p>
+      <img src="mejpeg.png" id="mejpg" alt="" />
+      <p class="intro">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. A, distinctioo lo
+        quibusdam? Expedita labore atque, provident minus, iste possimus
+        officiis facilis blanditiis dignissimos consequuntur animi sit autem
+        sunt harum vitae ipsa. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Maxime dolore enim quidem iure eaque laudantium. Quasi
+        ad corporis, non facere totam dignissimos consequuntur consequatur,
+        perferendis eos minima possimus, tenetur expedita. Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Voluptate praesentium tempora eaque
+        exercitationem porro totam corporis quasi, fugiat culpa cupiditate
+        accusantium aperiam ut, voluptates at mollitia velit officiis et
+        laudantium? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Provident repellat ab modi cum doloribus aperiam a ex, eveniet sit quod,
+        repellendus esse quo earum accusamus ipsum. Corporis quaerat sapiente
+        commodi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit
+        quae quod, perferendis ipsum nulla officia suscipit mollitia vitae amet,
+        nam vero architecto eveniet beatae corrupti nobis cum similique
+        sapiente! Eos! Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Sint saepe illo, voluptatibus alias suscipit a inventore, aut possimus
+        vero, dicta fugit voluptates aspernatur blanditiis autem. Pariatur
+        quidem ut sequi quas. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Reprehenderit perferendis amet ducimus officia, eveniet corporis
+        expedita reiciendis, delectus, eligendi ullam totam aliquam molestiae.
+        Placeat voluptas nobis labore, dolores repellat consequuntur! Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Voluptates quisquam
+        placeat dicta facere beatae, fugit suscipit unde at accusamus esse,
+        odio, rem libero repudiandae ab aspernatur nihil incidunt eum inventore.
+      </p>
+    </section>
+    <section id="portfolio">
+    
+      <div id="portfoliodiv">
+        <h1 id="portfolioh1">Portfolio</h1>
+        
+       
+        <img src="glass.png" class="pictures" alt="" />
+        <img src="lemon.png" class="pictures" alt="" />
+        <img src="shark.png" class="pictures" alt="" />
+        <img src="weather.png" class="pictures" alt="" />
+       
+      </div> 
+    
+    </section>
+    <section id="services">
+      <h1 id="titleservices">Services</h1>
+      <div class="row">
+        <div class="box">
+          <img src="website.png" class="website" alt="" />
+          <h1 class="title">
+            Website <br />
+            Design
+          </h1>
+          <p>
+            Odio, eum inventore! Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Facilis nobis hic nesciunt accusamus, eaque
+            repudiandae natus quia totam delectus quo perferendis ratione ipsam,
+            vel possimus a ut eligendi sed ducimus? Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Impedit, placeat tempore atque
+            similique accusamus nihil. Modi quam ducimus iste nulla minus, quo
+            voluptate neque rerum mollitia quaerat fugit, eveniet aspernatur!
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="uxui.png" class="uxui" alt="" />
+          <h1 class="title">
+            UX/UI <br />
+            Design
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam fugiat
+            dolorum ut ullam dicta deserunt qui doloremque rem exercitationem
+            incidunt, eum id voluptate perferendis, veniam totam unde!
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="marketing.png" class="marketing" alt="" />
+          <h1 class="title">
+            Digital <br />
+            Marketing
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam fugiat
+            dolorum ut ullam dicta deserunt qui doloremque rem exercitationem
+            incidunt, eum id voluptate perferendis, veniam totam unde! Odio, eum
+            inventore! Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Facilis nobis hic nesciunt accusamus, eaque repudiandae natus quia
+            totam delectus quo perferendis ratione ipsam, vel possimus a ut
+            eligendi sed ducimus? Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h1 class="contacttitle">Contact Me</h1>
+      <div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  <div class="row">
+    
+    
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Subject</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+    </section>
+    <script src="portfolio.js"></script>
+  </body>
+</html>
